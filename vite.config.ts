@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // 👇 GitHub Pages 배포용 base 추가 (환경별 설정)
-      base: mode === 'production' ? '/chomun-graphics/' : '/',
+      base: mode === 'production' ? '/Cgraphics/' : '/',
       
       server: {
         port: 3000,
